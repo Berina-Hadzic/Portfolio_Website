@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Berina Hadžić</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="logob.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="title" >
+                Hi, I am Berina (Tarhaniš) Hadžić.<br> 
+                Software developer based in<br>
+                Montenegro.
+            </h1> 
+            <a href="#footer" class="btn1">Get in touch</a>    
+            <img src="mojaslika2.jpg" alt="" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Apps</h3>
+                    <p>Designed and developed apps like Movie app, Notes app, Recipe app, Calculator app and many others.</p>
+                </div>            
+                <div class="service">
+                    <h3>Websites</h3>
+                    <p>Developed several websites with HTML, CSS, and JavaScript.</p>
+                </div> 
+            </div> 
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Master Professor of Informatics and Mathematics</p>
+           
+           <div class="about-me__body">
+               <p>I am Master Professor of Informatics and Mathematics, skilled in C#, XAML, MY SQL Server,
+            HTML, CSS, JavaScript.
+               </p>
+               <p>Through university projects i have built and designed many different apps and websites  ( Movie app, Currency Converter app, Calculator App, Smart city website, Website Games and many others).
+                    I am passionate about building world class applications and i love
+                   all aspects of the software development process.
+               </p>
+           </div>
+           
+           <img src="mojaslika3.jpeg" alt="" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Applications and Websites</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="movieapp.html" class="portfolio__item">
+                    <img src="movielibrary.png" alt="" class="portfolio__img">
+                </a>
+                
+                  <!-- Portfolio item 02 -->
+                  <a href="website_games.html" class="portfolio__item">
+                    <img src="Games-Website.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 03 -->
+                <a href="recipe_app.html" class="portfolio__item">
+                    <img src="recipeapp.png" alt="" class="portfolio__img">
+                </a>
+                
+                 <!-- Portfolio item 04 -->
+                 <a href="notes.html" class="portfolio__item">
+                    <img src="notesapp1.png" alt="" class="portfolio__img">
+                </a>
+                 <!--Portfolio item 05-->
+                 <a href="quiz_app.html" class="portfolio__item">
+                    <img src="quiz2.png" alt="" class="portfolio__img">
+                </a> 
+                <!-- Portfolio item 06 -->
+                <a href="todo.html" class="portfolio__item">
+                    <img src="todos0.png" alt="" class="portfolio__img">
+                </a>
+                
+                
+                <!-- Portfolio item 07 -->
+                <a href="currency_converter.html" class="portfolio__item">
+                    <img src="cc.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="cdt.html" class="portfolio__item">
+                    <img src="cdt.png" alt="" class="portfolio__img">
+                </a>
+                 <!-- Portfolio item 09 -->
+                 <a href="calculator.html" class="portfolio__item">
+                    <img src="calculator.jpg" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <a href="mailto:berinahadzic94@gmail.com" class="footer__link">berinahadzic94@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://www.linkedin.com/in/berinahadzic">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Berina-Hadzic">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
